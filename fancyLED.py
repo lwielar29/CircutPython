@@ -1,4 +1,3 @@
-
 import time
 from digitalio import DigitalInOut, Direction, Pull  #pylint: disable-msg=import-error
 import random
