@@ -22,4 +22,12 @@ PHOTOINTERRUPTER
 
 This assignment required me to wire a photointerrupter and code so that it would count how many times something had passed between the photointerrupter legs. The tricky part was then that my serial monitor had to print how many times something had passed within my photointerrupter every 4 seconds. 
 
-# Mr H blach hlahfdwdkljfnqwljkdfnlw
+DISTANCE CENSOR
+
+CLASSES, OBJECTS, AND MODULES
+
+HELLO VS CODE
+
+FANCY LED
+
+HELLO PROCESSING
