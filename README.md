@@ -6,7 +6,7 @@ Engineering 3
 LED FADE
  
 Using CircutPython I developed code to make an led light slowly get brighter and then to slowly face back until it is very dim. I learned the basics on Circutpython and its differences from arduino coding. Specifically I learned how to import libraries into Circutpython and gained an understanding of dutycycle, the part of the code that makes the light fade at a certain rate.   
-<img src="pics for github/ledfade.jpg" width="75">
+<img src="https://github.com/tweissm35/CircuitPython/blob/master/media/fade.jpg" width="400">
 
 LED BLINK
 
@@ -16,12 +16,12 @@ Similary to LED FADE, I used CircutPython to make my led turn on and off. Althou
 SERVO
  
 For this assignment I learned how to make a servo spin back and forth using CircutPython code. The servo would spin in one direction when I touched one wire and would spin in the other direction when I touched the other wire. My favorite part of the assiignment was the touchio library. I found it interesting to gain a deeper understanding of how the metro board is able to sense that the wire has been touched through the disruption of electrons. A difficult part of this assignment was constructing my code so that when I touched the wire it did not move to the postion but would only move towards the position when I was touching the wire. I had to use "+= 5" to make this happen. 
-<img src="media/octocat.jpg" width="75">
+<img src="https://github.com/tweissm35/CircuitPython/blob/master/media/servo.jpg" width="400">
 
 LCD PRESSES
 
 I wired and coded an LCD screen to print the number of times I pressed a button through CircutPython. I had to add a lot of new libraries to CIRCUTROPY in order to use my LCD screen. This assignment mirrored a difficult assignment last year, but we used Circutpython code instead. Using my code from last year as a base for constrcuting this new code, the assignment was too difficult and highlightened the differnces and also similarites between arduino code and circutpython. I learned it was more simple to upload only certain parts of the library that I would be using my phrasing my code like this, "from digitalio import DigitalInOut, Direction, Pull." 
-<img src="media/octocat.jpg" width="75">
+<img src="https://github.com/tweissm35/CircuitPython/blob/master/media/lcdcount.jpg" width="400">
 
 PHOTOINTERRUPTER
 
