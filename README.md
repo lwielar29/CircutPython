@@ -39,3 +39,5 @@ FANCY LED
 
 This assignment combined the hello vs. code assignment and the classes, objects, and modules assignment. In this assignment we wired 6 leds that would blink in a specific pattern - alternate, blink, chase, and sparkle. We decided in our code what these four patterns would entail. We were given a set code and had to make a class in VS Code that would make it work. I learned how to use a for statement as I needed to repeat areas of my code, but didn't want to jumble of writting it out. I learned to structure a for statement like this:  for i in range(0,5): "i" can be any sort of variable and the range dictates how many times it will repeat or is a great way to randomize a pattern when used with if statements.  
 
+![Fancy Led Fritzing from Gabby's Sigma Wiki](http://wiki.chssigma.com/images/thumb/3/30/Fancy_LED_fritzing_Gabby.PNG/900px-Fancy_LED_fritzing_Gabby.PNG)
+
