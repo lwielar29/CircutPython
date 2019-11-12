@@ -5,8 +5,8 @@ Engineering 3
 
 LED FADE
  
-Using CircutPython I developed code to make an led light slowly get brighter and then to slowly face back until it is very dim. I learned the basics on Circutpython and its differences from arduino coding. Specifically I learned how to import libraries into Circutpython and gained an understanding of dutycycle, the part of the code that makes the light fade a a certain rate.   
-<img src="engineering/pics for github/ledfade.jpg" width="75">
+Using CircutPython I developed code to make an led light slowly get brighter and then to slowly face back until it is very dim. I learned the basics on Circutpython and its differences from arduino coding. Specifically I learned how to import libraries into Circutpython and gained an understanding of dutycycle, the part of the code that makes the light fade at a certain rate.   
+<img src="pics for github/ledfade.jpg" width="75">
 
 LED BLINK
 
