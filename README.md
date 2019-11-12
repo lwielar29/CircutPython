@@ -25,12 +25,17 @@ This assignment required me to wire a photointerrupter and code so that it would
 
 DISTANCE CENSOR
 
-The distance censor was a fun assignment. having already used a distance censor to create a robot, this assignment has an added twist. We created code to read the distance of an object from the censor and the distance corresponded to a  certain color. The closer the distance the color was red. I tthen transitioned to blues and then greens. 
+The distance censor was a fun assignment. Having already used a distance censor to create a robot, this assignment has an added twist. We created code to read the distance of an object from the censor and the distance corresponded to a  certain color of an led built into the metroboard. The closer the distance the color was red. It then transitioned to blues and then greens on a color fading scale. A hard part of the assignment was figuring out how to make an led a certain color. I had to google how an led works and the pixel coding for it to be a certain color. I learned that the code for coloring is an amount from 0-250 and is a combination of red, green, blue.  
 
 CLASSES, OBJECTS, AND MODULES
 
+This assignment took coloring a RGB led to a whole new level. We had to make two rgb leds transition through 6 colors of the rainbow each at a different point in the cycle, utilizing the already assigned code. To make this code worked we had to create a class that created variables and functions that would enable the code to work. It was hard to create a class and know what I needed to put in the def __ init __ and what needed to be made its own function. I learned that the code in def ___ init __ would always  need to be true and always be running. This meant doing this such as setting the output and where they will find the pin. 
+
 HELLO VS CODE
+
+For this assignment I used the code writing program VS Code to write code and upload it to my metroboard and then puch my code to my github with clicks of a few buttons stragiht from the program. I wrote a simple code that would print hello on the serial monitor. The tricky part of this assignment was installinga ll of the fies needed to run VS Code and learning how to git add and git commit on VS Code. I learned how to access the github part of VS Code and click the "+" to gitadd my code and then "ctrl enter" with a somment to commit my code to my git hub repository. 
 
 FANCY LED
 
-HELLO PROCESSING
+This assignment combined the hello vs. code assignment and the classes, objects, and modules assignment. In this assignment we wired 6 leds that would blink in a specific pattern - alternate, blink, chase, and sparkle. We decided in our code what these four patterns would entail. We were given a set code and had to make a class in VS Code that would make it work. I learned how to use a for statement as I needed to repeat areas of my code, but didn't want to jumble of writting it out. I learned to structure a for statement like this:  for i in range(0,5): "i" can be any sort of variable and the range dictates how many times it will repeat or is a great way to randomize a pattern when used with if statements.  
+
