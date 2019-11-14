@@ -1,7 +1,6 @@
 # CircutPython
-My circut python assignments
-2019-2020
-Engineering 3
+### My circut python assignments
+2019-2020 // Engineering 3
 
  ## LED FADE
  
