@@ -19,7 +19,8 @@ For this assignment I learned how to make a servo spin back and forth using Circ
 
 ## LCD PRESSES
 
-I wired and coded an LCD screen to print the number of times I pressed a button through CircutPython. I had to add a lot of new libraries to CIRCUTROPY in order to use my LCD screen. This assignment mirrored a difficult assignment last year, but we used Circutpython code instead. Using my code from last year as a base for constrcuting this new code, the assignment was too difficult and highlightened the differnces and also similarites between arduino code and circutpython. I learned it was more simple to upload only certain parts of the library that I would be using my phrasing my code like this, "from digitalio import DigitalInOut, Direction, Pull." 
+I wired and coded an LCD screen to print the number of times I pressed a button through CircutPython. I had to add a lot of new libraries to CIRCUTROPY in order to use my LCD screen. This assignment mirrored a difficult assignment last year, but we used Circutpython code instead. Using my code from last year as a base for constrcuting this new code, the assignment was too difficult and highlightened the differnces and also similarites between arduino code and circutpython. I learned it was more simple to upload only certain parts of the library that I would be using my phrasing my code like this, "from digitalio import DigitalInOut, Direction, Pull."
+
 <img src="https://github.com/tweissm35/CircuitPython/blob/master/media/lcdcount.jpg" width="400">
 
 ## PHOTOINTERRUPTER
@@ -35,6 +36,7 @@ The distance censor was a fun assignment. Having already used a distance censor 
 ## CLASSES, OBJECTS, AND MODULES
 
 This assignment took coloring a RGB led to a whole new level. We had to make two rgb leds transition through 6 colors of the rainbow each at a different point in the cycle, utilizing the already assigned code. To make this code worked we had to create a class that created variables and functions that would enable the code to work. It was hard to create a class and know what I needed to put in the def __ init __ and what needed to be made its own function. I learned that the code in def ___ init __ would always  need to be true and always be running. This meant doing this such as setting the output and where they will find the pin. 
+
 <img src="https://github.com/tweissm35/CircuitPython/blob/master/media/rgb.jpg" width="350">
 
 ## HELLO VS CODE
