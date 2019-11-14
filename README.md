@@ -6,12 +6,12 @@ Engineering 3
 LED FADE
  
 Using CircutPython I developed code to make an led light slowly get brighter and then to slowly face back until it is very dim. I learned the basics on Circutpython and its differences from arduino coding. Specifically I learned how to import libraries into Circutpython and gained an understanding of dutycycle, the part of the code that makes the light fade at a certain rate.   
-<img src="https://github.com/tweissm35/CircuitPython/blob/master/media/fade.jpg" width="400">
+<img src="https://github.com/tweissm35/CircuitPython/blob/master/media/fade.jpg" width="350">
 
 LED BLINK
 
 Similary to LED FADE, I used CircutPython to make my led turn on and off. Although it is a simple assignment using CircutPython instead of arduino required me to learn an almost new language of code. This code was simplier and so I gained a deeper understanding of the code. At first, I had a hard time firguring out if I would need to use the While True in my code. I learned that with such a simple code I didn't need to as there were no parameters needed for it to blink. 
-<img src="media/octocat.jpg" width="75">
+<img src="media/octocat.jpg" width="350">
 
 SERVO
  
@@ -26,17 +26,17 @@ I wired and coded an LCD screen to print the number of times I pressed a button 
 PHOTOINTERRUPTER
 
 This assignment required me to wire a photointerrupter and code so that it would count how many times something had passed between the photointerrupter legs. The tricky part was then that my serial monitor had to print how many times something had passed within my photointerrupter every 4 seconds. To do this I had to create values that represented the 4 seconds. I made a variable, "max" and made it equal 4. Then in my code I used the variable "remaining" and the current time since the program had been running "time.time" to construct a code that would only print every 4 seconds. 
-<img src="media/octocat.jpg" width="75">
+<img src="https://github.com/tweissm35/CircuitPython/blob/master/media/photointerrupter.jpg" width="350">
 
 DISTANCE CENSOR
 
 The distance censor was a fun assignment. Having already used a distance censor to create a robot, this assignment has an added twist. We created code to read the distance of an object from the censor and the distance corresponded to a  certain color of an led built into the metroboard. The closer the distance the color was red. It then transitioned to blues and then greens on a color fading scale. A hard part of the assignment was figuring out how to make an led a certain color. I had to google how an led works and the pixel coding for it to be a certain color. I learned that the code for coloring is an amount from 0-250 and is a combination of red, green, blue.  
-<img src="media/octocat.jpg" width="75">
+<img src="media/octocat.jpg" width="350">
 
 CLASSES, OBJECTS, AND MODULES
 
 This assignment took coloring a RGB led to a whole new level. We had to make two rgb leds transition through 6 colors of the rainbow each at a different point in the cycle, utilizing the already assigned code. To make this code worked we had to create a class that created variables and functions that would enable the code to work. It was hard to create a class and know what I needed to put in the def __ init __ and what needed to be made its own function. I learned that the code in def ___ init __ would always  need to be true and always be running. This meant doing this such as setting the output and where they will find the pin. 
-<img src="media/octocat.jpg" width="75">
+<img src="https://github.com/tweissm35/CircuitPython/blob/master/media/rgb.jpg" width="350">
 
 HELLO VS CODE
 
@@ -46,5 +46,5 @@ FANCY LED
 
 This assignment combined the hello vs. code assignment and the classes, objects, and modules assignment. In this assignment we wired 6 leds that would blink in a specific pattern - alternate, blink, chase, and sparkle. We decided in our code what these four patterns would entail. We were given a set code and had to make a class in VS Code that would make it work. I learned how to use a for statement as I needed to repeat areas of my code, but didn't want to jumble of writting it out. I learned to structure a for statement like this:  for i in range(0,5): "i" can be any sort of variable and the range dictates how many times it will repeat or is a great way to randomize a pattern when used with if statements.  
 
-<img src="media/octocat.jpg" width="75">
+<img src="https://github.com/tweissm35/CircuitPython/blob/master/media/fancyLED.jpg" width="350">
 
