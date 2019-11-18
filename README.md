@@ -16,6 +16,7 @@ I learned the basics on Circutpython and its differences from arduino coding. Sp
 ## LED BLINK
 
 Similary to LED FADE, I used CircutPython to make my led turn on and off. Although it is a simple assignment using CircutPython instead of arduino required me to learn an almost new language of code. This code was simplier and so I gained a deeper understanding of the code. 
+
 <img src="https://github.com/tweissm35/CircuitPython/blob/master/media/fade.jpg" width="350">
 
 ### Lessons Learned
@@ -25,6 +26,7 @@ At first, I had a hard time firguring out if I would need to use the While True 
 ## SERVO
  
 For this assignment I learned how to make a servo spin back and forth using CircutPython code. The servo would spin in one direction when I touched one wire and would spin in the other direction when I touched the other wire. My favorite part of the assiignment was the touchio library. 
+
 <img src="https://github.com/tweissm35/CircuitPython/blob/master/media/servo.jpg" width="400">
 
 ### Lessons Learned
@@ -34,6 +36,7 @@ I found it interesting to gain a deeper understanding of how the metro board is 
 ## LCD PRESSES
 
 I wired and coded an LCD screen to print the number of times I pressed a button through CircutPython. I had to add a lot of new libraries to CIRCUTROPY in order to use my LCD screen. This assignment mirrored a difficult assignment last year, but we used Circutpython code instead. Using my code from last year as a base for constrcuting this new code, the assignment was too difficult and highlightened the differnces and also similarites between arduino code and circutpython. 
+
 <img src="https://github.com/tweissm35/CircuitPython/blob/master/media/lcdcount.jpg" width="400">
 
 ### Lessons Learned
@@ -43,6 +46,7 @@ I learned it was more simple to upload only certain parts of the library that I 
 ## PHOTOINTERRUPTER
 
 This assignment required me to wire a photointerrupter and code so that it would count how many times something had passed between the photointerrupter legs. The tricky part was then that my serial monitor had to print how many times something had passed within my photointerrupter every 4 seconds. 
+
 <img src="https://github.com/tweissm35/CircuitPython/blob/master/media/photointerrupter.jpg" width="350">
 
 ### Lessons Learned
@@ -52,6 +56,7 @@ To do this I had to create values that represented the 4 seconds. I made a varia
 ## DISTANCE CENSOR
 
 The distance censor was a fun assignment. Having already used a distance censor to create a robot, this assignment has an added twist. We created code to read the distance of an object from the censor and the distance corresponded to a  certain color of an led built into the metroboard. The closer the distance the color was red. It then transitioned to blues and then greens on a color fading scale. 
+
 <img src="https://github.com/tweissm35/CircuitPython/blob/master/media/ultrasonicsensor.jpg" width="350">
 
 ### Lessons Learned
@@ -60,6 +65,7 @@ A hard part of the assignment was figuring out how to make an led a certain colo
 ## CLASSES, OBJECTS, AND MODULES
 
 This assignment took coloring a RGB led to a whole new level. We had to make two rgb leds transition through 6 colors of the rainbow each at a different point in the cycle, utilizing the already assigned code. To make this code worked we had to create a class that created variables and functions that would enable the code to work. 
+
 <img src="https://github.com/tweissm35/CircuitPython/blob/master/media/rgb.jpg" width="350">
 
 ### Lessons Learned
@@ -75,6 +81,7 @@ The tricky part of this assignment was installinga ll of the fies needed to run 
 ## FANCY LED
 
 This assignment combined the hello vs. code assignment and the classes, objects, and modules assignment. In this assignment we wired 6 leds that would blink in a specific pattern - alternate, blink, chase, and sparkle. We decided in our code what these four patterns would entail. We were given a set code and had to make a class in VS Code that would make it work.
+
 <img src="https://github.com/tweissm35/CircuitPython/blob/master/media/fancyLED.jpg" width="350">
 
 ### Lessons Learned
