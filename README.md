@@ -1,6 +1,7 @@
 # CircutPython
 ### My circut python assignments
-2019-2020 // Engineering 3
+2019-2020 // Engineering 3 // All pictures are from Tim Wiessman's gtihub page @ https://github.com/tweissm35 
+
 
  ## LED FADE
  
