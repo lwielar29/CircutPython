@@ -3,6 +3,23 @@
 2019-2020 // Engineering 3 // All pictures are from [Tim Wiessman's github page](https://github.com/tweissm35) 
 
 
+
+## Table of Contents
+* [Table of Contents](#Table-of-Contents)
+* [LED FADE](#LED-FADE)
+* [LED BLINK](#LED-BLINK)
+* [SREVO](#SERVO)
+* [LCD PRESSES](#LCD-PRESSES)
+* [PHOTOINTERRUPTER](#PHOTOINTERRUPTER)
+* [DISTANCE SENSOR](#DISTANCE-SENSOR)
+* [CLASSES, OBJECTS, AND MODULES](#CLASSES,-OBJECTS,-AND-MODULES)
+* [HELLO VS CODE](#HELLO-VS-CODE)
+* [FANCY LED](#FANCY-LED)
+
+
+
+
+
  ## LED FADE
  
 Using CircutPython I developed code to make an led light slowly get brighter and then to slowly face back until it is very dim.
@@ -11,6 +28,8 @@ Using CircutPython I developed code to make an led light slowly get brighter and
 
 ### Lessons Learned
 I learned the basics on Circutpython and its differences from arduino coding. Specifically I learned how to import libraries into Circutpython and gained an understanding of dutycycle, the part of the code that makes the light fade at a certain rate.   
+
+
 
 
 ## LED BLINK
@@ -23,6 +42,8 @@ Similary to LED FADE, I used CircutPython to make my led turn on and off. Althou
 At first, I had a hard time firguring out if I would need to use the While True in my code. I learned that with such a simple code I didn't need to as there were no parameters needed for it to blink. 
 
 
+
+
 ## SERVO
  
 For this assignment I learned how to make a servo spin back and forth using CircutPython code. The servo would spin in one direction when I touched one wire and would spin in the other direction when I touched the other wire. My favorite part of the assiignment was the touchio library. 
@@ -31,6 +52,9 @@ For this assignment I learned how to make a servo spin back and forth using Circ
 
 ### Lessons Learned
 I found it interesting to gain a deeper understanding of how the metro board is able to sense that the wire has been touched through the disruption of electrons. A difficult part of this assignment was constructing my code so that when I touched the wire it did not move to the postion but would only move towards the position when I was touching the wire. I had to use "+= 5" to make this happen. 
+
+
+
 
 
 ## LCD PRESSES
@@ -43,6 +67,9 @@ I wired and coded an LCD screen to print the number of times I pressed a button 
 I learned it was more simple to upload only certain parts of the library that I would be using my phrasing my code like this, "from digitalio import DigitalInOut, Direction, Pull."
 
 
+
+
+
 ## PHOTOINTERRUPTER
 
 This assignment required me to wire a photointerrupter and code so that it would count how many times something had passed between the photointerrupter legs. The tricky part was then that my serial monitor had to print how many times something had passed within my photointerrupter every 4 seconds. 
@@ -53,14 +80,20 @@ This assignment required me to wire a photointerrupter and code so that it would
 To do this I had to create values that represented the 4 seconds. I made a variable, "max" and made it equal 4. Then in my code I used the variable "remaining" and the current time since the program had been running "time.time" to construct a code that would only print every 4 seconds. 
 
 
-## DISTANCE CENSOR
 
-The distance censor was a fun assignment. Having already used a distance censor to create a robot, this assignment has an added twist. We created code to read the distance of an object from the censor and the distance corresponded to a  certain color of an led built into the metroboard. The closer the distance the color was red. It then transitioned to blues and then greens on a color fading scale. 
+
+
+## DISTANCE SENSOR
+
+The distance sensor was a fun assignment. Having already used a distance sensor to create a robot, this assignment has an added twist. We created code to read the distance of an object from the sensor and the distance corresponded to a  certain color of an led built into the metroboard. The closer the distance the color was red. It then transitioned to blues and then greens on a color fading scale. 
 
 <img src="https://github.com/tweissm35/CircuitPython/blob/master/media/ultrasonicsensor.jpg" width="350">
 
 ### Lessons Learned
 A hard part of the assignment was figuring out how to make an led a certain color. I had to google how an led works and the pixel coding for it to be a certain color. I learned that the code for coloring is an amount from 0-250 and is a combination of red, green, blue.  
+
+
+
 
 ## CLASSES, OBJECTS, AND MODULES
 
@@ -71,12 +104,18 @@ This assignment took coloring a RGB led to a whole new level. We had to make two
 ### Lessons Learned
 It was hard to create a class and know what I needed to put in the def __ init __ and what needed to be made its own function. I learned that the code in def ___ init __ would always  need to be true and always be running. This meant doing this such as setting the output and where they will find the pin. 
 
+
+
+
 ## HELLO VS CODE
 
 For this assignment I used the code writing program VS Code to write code and upload it to my metroboard and then puch my code to my github with clicks of a few buttons stragiht from the program. I wrote a simple code that would print hello on the serial monitor. 
 
 ### Lessons Learned
 The tricky part of this assignment was installinga ll of the fies needed to run VS Code and learning how to git add and git commit on VS Code. I learned how to access the github part of VS Code and click the "+" to gitadd my code and then "ctrl enter" with a somment to commit my code to my git hub repository. 
+
+
+
 
 ## FANCY LED
 
