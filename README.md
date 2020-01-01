@@ -17,7 +17,7 @@
 * [FANCY LED](#FANCY-LED)
 
 
-
+  
 
 
  ## LED FADE
@@ -29,7 +29,7 @@ Using CircutPython I developed code to make an led light slowly get brighter and
 ### Lessons Learned
 I learned the basics on Circutpython and its differences from arduino coding. Specifically I learned how to import libraries into Circutpython and gained an understanding of dutycycle, the part of the code that makes the light fade at a certain rate.   
 
-
+  
 
 
 ## LED BLINK
@@ -41,7 +41,7 @@ Similary to LED FADE, I used CircutPython to make my led turn on and off. Althou
 ### Lessons Learned
 At first, I had a hard time firguring out if I would need to use the While True in my code. I learned that with such a simple code I didn't need to as there were no parameters needed for it to blink. 
 
-
+  
 
 
 ## SERVO
@@ -55,7 +55,7 @@ I found it interesting to gain a deeper understanding of how the metro board is 
 
 
 
-
+  
 
 ## LCD PRESSES
 
@@ -66,7 +66,7 @@ I wired and coded an LCD screen to print the number of times I pressed a button 
 ### Lessons Learned
 I learned it was more simple to upload only certain parts of the library that I would be using my phrasing my code like this, "from digitalio import DigitalInOut, Direction, Pull."
 
-
+  
 
 
 
@@ -82,7 +82,7 @@ To do this I had to create values that represented the 4 seconds. I made a varia
 
 
 
-
+  
 ## DISTANCE SENSOR
 
 The distance sensor was a fun assignment. Having already used a distance sensor to create a robot, this assignment has an added twist. We created code to read the distance of an object from the sensor and the distance corresponded to a  certain color of an led built into the metroboard. The closer the distance the color was red. It then transitioned to blues and then greens on a color fading scale. 
@@ -94,7 +94,7 @@ A hard part of the assignment was figuring out how to make an led a certain colo
 
 
 
-
+  
 ## CLASSES, OBJECTS, AND MODULES
 
 This assignment took coloring a RGB led to a whole new level. We had to make two rgb leds transition through 6 colors of the rainbow each at a different point in the cycle, utilizing the already assigned code. To make this code worked we had to create a class that created variables and functions that would enable the code to work. 
@@ -104,7 +104,7 @@ This assignment took coloring a RGB led to a whole new level. We had to make two
 ### Lessons Learned
 It was hard to create a class and know what I needed to put in the def __ init __ and what needed to be made its own function. I learned that the code in def ___ init __ would always  need to be true and always be running. This meant doing this such as setting the output and where they will find the pin. 
 
-
+  
 
 
 ## HELLO VS CODE
@@ -115,7 +115,7 @@ For this assignment I used the code writing program VS Code to write code and up
 The tricky part of this assignment was installinga ll of the fies needed to run VS Code and learning how to git add and git commit on VS Code. I learned how to access the github part of VS Code and click the "+" to gitadd my code and then "ctrl enter" with a somment to commit my code to my git hub repository. 
 
 
-
+  
 
 ## FANCY LED
 
