@@ -22,12 +22,13 @@
 
  ## LED FADE
  
-Using CirciutPython I developed code to make an led light slowly get brighter and then to slowly face back until it is very dim. To do this I had to utilize PWM and dutycycle. 
+Using CirciutPython I developed code to make an led light slowly get brighter and then to slowly face back until it is very dim. To do this I had to utilize PWM, pulse width modification, and dutycycle which control the amount of energy/pulse/voltage that is sent to the the LED making it fade.  
 
 <img src="https://github.com/tweissm35/CircuitPython/blob/master/media/fade.jpg" width="350">
 
 ### Lessons Learned
-I learned the basics of Circuitpython and its differences from arduino coding. Specifically, I learned how to import libraries into Circuitpython and gained an understanding of dutycycle, the part of the code that makes the light fade at a certain rate.   
+I learned the basics of Circuitpython and its differences from arduino coding. Specifically, I learned how to import libraries into Circuitpython by writing at the top of your code "import *library*". I also gained an understanding of dutycycle, the part of the code that controls the amount of time the led is ON compared to the time it taks to complete the cycle. This caused the LED to fade. [More info for PWM](https://learn.adafruit.com/circuitpython-essentials/circuitpython-pwm)
+ 
 
   
 
@@ -39,7 +40,7 @@ Similarly to LED FADE, I used CircuitPython to make my led turn on and off repea
 <img src="https://github.com/tweissm35/CircuitPython/blob/master/media/fade.jpg" width="350">
 
 ### Lessons Learned
-At first, I had a hard time figuring out if I would need to use the While True in my code. I learned that with such a simple code I didn't need to as there were no parameters needed for it to blink. I also learned how to read an LED in circuitpython. Instead of using digitalread and digitalwrite as we used in arduino I used "value." The LED is still read as being True (on) or False (off). 
+At first, I had a hard time figuring out if I would need to use the While True in my code. I learned that with such a simple code I didn't need to as there were no parameters needed for it to blink. I also learned how to read an LED in circuitpython. Instead of using digitalread and digitalwrite as we used in arduino I used ".value" The LED is still read as being True (on) or False (off). 
 
   
 
@@ -51,7 +52,7 @@ For this assignment, I learned how to make a servo spin back and forth 180 degre
 <img src="https://github.com/tweissm35/CircuitPython/blob/master/media/servo.jpg" width="400">
 
 ### Lessons Learned
-I found it interesting to gain a deeper understanding of how the metro board can sense that the wire has been touched through the disruption of electrons. A difficult part of this assignment was constructing my code so that when I touched the wire it did not move to the position but would only move towards the position when I was touching the wire. I had to use "angle += 5" to make this happen instead of just telling the servo to move to one position or "angle."
+I found it interesting to gain a deeper understanding of how the metro board can sense that the wire has been touched through the disruption of electrons. A difficult part of this assignment was constructing my code so that when I touched the wire it did not move to the position but would only move slowly towards the position when I was touching the wire. I had to use "angle += 5" to make this happen instead of just telling the servo to move to one position or "angle."
 
 
 
@@ -59,7 +60,7 @@ I found it interesting to gain a deeper understanding of how the metro board can
 
 ## LCD PRESSES
 
-I wired and coded an LCD screen to print the number of times I pressed a button through CircuitPython. I had to add a lot of new libraries to CIRCUiTROPY in order to use my LCD screen. This assignment mirrored a difficult assignment last year, but we used Circuitpython code instead. Using my code from last year as a base for constructing this new code, the assignment was too difficult and highlighted the differences and also similarities between Arduino code and circuit python. 
+I wired and coded an LCD screen to print the number of times I pressed a button through CircuitPython. I had to add a lot of new libraries to CIRCUITROPY in order to use my LCD screen and had to read my button as variable rather than a state. This assignment mirrored a difficult assignment last year, but we used Circuitpython code instead. Using my code from last year as a base for constructing this new code, the assignment highlighted the differences and also similarities between Arduino code and circuit python. 
 
 
 <img src="https://github.com/tweissm35/CircuitPython/blob/master/media/lcdcount.jpg" width="400">
