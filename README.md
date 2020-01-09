@@ -31,7 +31,7 @@ Fritzing from [Tim Wiessman's github page](https://github.com/tweissm35/CircuitP
 ### Lessons Learned
 I learned the basics of Circuitpython and its differences from arduino coding. Specifically, I learned how to import libraries into Circuitpython by writing at the top of your code "import *library*". I also gained an understanding of dutycycle, the part of the code that controls the amount of time the led is ON compared to the time it taks to complete the cycle. This caused the LED to fade. [More info for PWM](https://learn.adafruit.com/circuitpython-essentials/circuitpython-pwm)
  
-My LED fade code[link](https://github.com/lwielar29/CircutPython/blob/master/fade.py)
+My LED fade code [link](https://github.com/lwielar29/CircutPython/blob/master/fade.py)
   
 
 
