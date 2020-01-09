@@ -31,7 +31,7 @@ Fritzing from [Tim Wiessman's github page](https://github.com/tweissm35/CircuitP
 ### Lessons Learned
 I learned the basics of Circuitpython and its differences from arduino coding. Specifically, I learned how to import libraries into Circuitpython by writing at the top of your code "import *library*". I also gained an understanding of dutycycle, the part of the code that controls the amount of time the led is ON compared to the time it taks to complete the cycle. This caused the LED to fade. [More info for PWM](https://learn.adafruit.com/circuitpython-essentials/circuitpython-pwm)
  
-
+My LED fade code[link](https://github.com/lwielar29/CircutPython/blob/master/fade.py)
   
 
 
@@ -46,8 +46,7 @@ Fritzing from [Tim Wiessman's github page](https://github.com/tweissm35/CircuitP
 ### Lessons Learned
 At first, I had a hard time figuring out if I would need to use the While True in my code. I learned that with such a simple code I didn't need to as there were no parameters needed for it to blink. I also learned how to read an LED in circuitpython. Instead of using digitalread and digitalwrite as we used in arduino I used ".value" The LED is still read as being True (on) or False (off). 
 
-  
-
+My LED blink code [link](https://github.com/lwielar29/CircutPython/blob/master/blink.py)
 
 ## SERVO
  
@@ -61,7 +60,7 @@ Fritzing from [Tim Wiessman's github page](https://github.com/tweissm35/CircuitP
 I found it interesting to gain a deeper understanding of how the metro board can sense that the wire has been touched through the disruption of electrons. A difficult part of this assignment was constructing my code so that when I touched the wire it did not move to the position but would only move slowly towards the position when I was touching the wire. I had to use "angle += 5" to make this happen instead of just telling the servo to move to one position or "angle."
 
 
-
+My servo code [link](https://github.com/lwielar29/CircutPython/blob/master/servospin.py)
   
 
 ## LCD PRESSES
@@ -76,7 +75,7 @@ Fritzing from [Tim Wiessman's github page](https://github.com/tweissm35/CircuitP
 ### Lessons Learned
 I learned it was more simple to upload only certain parts of the library that I would be using my phrasing my code like this, "from digitalio import DigitalInOut, Direction, Pull."
 
-  
+  My LCD presses [link](https://github.com/lwielar29/CircutPython/blob/master/lcdpresses.py)
 
 
 
@@ -92,7 +91,7 @@ Fritzing from [Tim Wiessman's github page](https://github.com/tweissm35/CircuitP
 I gained a deeper understanding of the time libraries that are available other than time.sleep(). In this assignment I used the function time.time() to make the serial monitor only print after 4 seconds had elapsed. I learned that time.time() is used to measure the time since the board and code have started running and can be used when you need to manipulate the timing in your code.  
 
 
-
+My photointerruper [link](https://github.com/lwielar29/CircutPython/blob/master/photointerrupter.py)
 
   
 ## DISTANCE SENSOR
@@ -107,7 +106,7 @@ Fritzing from [Tim Wiessman's github page](https://github.com/tweissm35/CircuitP
 A hard part of the assignment was figuring out how to make the led a certain color. I had to google how an led works and the pixel coding for it to be a certain color. I learned that the code for coloring is an amount from 0-250 and is a combination of red, green, blue in that order. For example the combination to color and RGB led fully red would be (255, 0, 0).   
 
 
-
+My distance sensor [link](https://github.com/lwielar29/CircutPython/blob/master/distancesensor.py)
   
 ## CLASSES, OBJECTS, AND MODULES
 
@@ -120,7 +119,7 @@ Fritzing from [Tim Wiessman's github page](https://github.com/tweissm35/CircuitP
 ### Lessons Learned
 It was hard to create a class and know what I needed to put in the def __ init __ and what needed to be made its own function. I learned that the code in def ___ init __ would always need to be true and always be running. In this case I used def__ init__ to set the output and the pins for the LEDs. Another part of def__ init__ is that it is run automatically and therefore will always need to be true. 
 
-  
+My CLASSES, OBJECTS, AND MODULES [link](https://github.com/lwielar29/CircutPython/blob/master/rainbow.py)
 
 
 ## HELLO VS CODE
@@ -130,7 +129,7 @@ For this assignment I used the code writing program VS Code to write code and up
 ### Lessons Learned
 The tricky part of this assignment was installing all of the files needed to run VS Code and learning how to git add and git commit on VS Code. I learned how to access the github part of VS Code and click the "+" to gitadd my code, then "ctrl enter" with a comment to commit my code, and finally to click push to push my changes/new codes to my github repository. 
 
-
+My Hello VS Code [link](https://github.com/lwielar29/CircutPython/blob/master/hello_vs_code.py)
   
 
 ## FANCY LED
@@ -144,4 +143,4 @@ Fritzing from [Tim Wiessman's github page](https://github.com/tweissm35/CircuitP
 ### Lessons Learned
 I learned how to use a for loop as I needed to repeat areas of my code, but didn't want the hassle of writing it out and wanted to condense my code. I learned to structure a for statement like this: for i in range(0,5):. "i" can be any sort of variable and the range dictates how many times it will repeat. I learned a For loop is a great way to randomize a pattern when used with if statements and to repeat areas of code.  
 
-
+My fancyLED class [link](https://github.com/lwielar29/CircutPython/blob/master/fancyLED.py)
