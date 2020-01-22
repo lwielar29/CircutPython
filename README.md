@@ -32,6 +32,23 @@ Fritzing from [Tim Wiessman's github page](https://github.com/tweissm35/CircuitP
 I learned the basics of Circuitpython and its differences from arduino coding. Specifically, I learned how to import libraries into Circuitpython by writing at the top of your code "import *library*". I also gained an understanding of dutycycle, the part of the code that controls the amount of time the led is ON compared to the time it taks to complete the cycle. This caused the LED to fade. [More info for PWM](https://learn.adafruit.com/circuitpython-essentials/circuitpython-pwm)
  
 My LED fade code [link](https://github.com/lwielar29/CircutPython/blob/master/fade.py)
+
+### Code
+```python
+import time # adding time libraries
+import board # adding board libraries
+import pulseio # adding pulseio libraries to enable fade similar to analog
+
+led = pulseio.PWMOut(board.D13, frequency=5000, duty_cycle=0) #naming led output, pin, frequency and duty cycle of pulse(PWM)
+
+while True: 
+    for i in range(100):  # PWM LED up and down
+        if i < 50: #half the time
+            led.duty_cycle = int(i * 2 * 65535 / 100)  # Up
+        else: # the other half
+            led.duty_cycle = 65535 - int((i - 50) * 2 * 65535 / 100)  # Down
+        time.sleep(0.03) # wait for .3 seconds
+```       
   
 
 
