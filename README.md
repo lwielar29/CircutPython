@@ -35,6 +35,10 @@ My LED fade code [link](https://github.com/lwielar29/CircutPython/blob/master/fa
 
 ### Code
 ```python
+# LED Fade
+# Lily Wielar
+# LED slowly gets brighter and then fades back off every few seconds
+
 import time # adding time libraries
 import board # adding board libraries
 import pulseio # adding pulseio libraries to enable fade similar to analog
